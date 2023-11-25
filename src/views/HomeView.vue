@@ -1,9 +1,9 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <main>
-    <TheWelcome />
+    <RouterButton type="warning" toPath="/" />
+    <RouterButton text="about" toPath="/about" />
+    <RouterButton type="primary" text="nest-session" toPath="/nest-session" />
   </main>
 </template>
